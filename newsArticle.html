@@ -31,19 +31,17 @@
 
     <!-- Accessibility Options Section -->
     <section>
-        <!-- Accessibility Options Form -->
-        <form>
-            <label for="accessibility-options">Accessibility Options:</label>
-            <select id="accessibility-options">
-                <option value="default">Default</option>
-                <option value="high-contrast">High Contrast</option>
-                <option value="large-text">Large Text</option>
-            </select>
-        </form>
+       
+        <!--Preferences with disable flash and moving elements-->
+        <h2>Preferences</h2>
         <p>We aim to make this site accessible to a wide audience and to ensure a great experience for all users by conforming to World Wide Web Consortium accessibility guidelines (W3C's WCAG). However, if you are having trouble reading this website, you can change the way it looks or disable some of its functionalities.</p>
-        <label for="allow-flashing-elements">Allow flashing elements:</label>
+        <form>
+            <fieldset>
+        <legend>Untick this to disable flashing and moving elements</legend>
         <input type="checkbox" id="allow-flashing-elements">
-        <p>Untick this to disable flashing and moving elements</p>
+        <label for="allow-flashing-elements">Allow flashing elements:</label>
+         </fieldset>
+        </form>
     </section>
 
     <!-- Article Content -->
@@ -52,16 +50,20 @@
         <!-- Article Title -->
         <h2>Accessibility Features: Easy Wins</h2>
 
-         <!--Img section-->
-         <img src="accessibilty.png" alt="">
-
-
+        
         <!-- Sub-header -->
         <h3>Handy tips on how to create accessible websites for everyone</h3>
 
         <!-- Author Information -->
-        <p>By <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a></p>
-        <p>Published on 04.08.21</p>
+        <address>
+            <p>By <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a></p>
+            <p>Published on 04.08.21</p>
+    
+        </address>
+       
+         <!--Img section-->
+         <img src="accessibilty.png" alt="accessbilty image with keyboard">
+
 
        
         <!-- Article Introduction -->
@@ -129,18 +131,13 @@
     </article>
        <!--Footer section   -- nav and company logo----->
     <footer>
-        <nav>
-            <ul>
-                <li style ="display:inline; margin-right: 20px;" ><a href="#">News</a></li>
-                <li  style ="display:inline; margin-right: 20px;"><a href="#">Opinion</a></li>
-                <li  style ="display:inline; margin-right: 20px;"><a href="#">Sport</a></li>
-                <li  style ="display:inline; margin-right: 20px;"><a href="#">Culture</a></li>
-                <li  style ="display:inline; margin-right: 20px;"><a href="#">Tech</a></li>
-
-
-            </ul>
-        </nav>
-        <p>&copy; 2021 Tech Returners News</p>
-    </footer>
+            <p>&copy; 2021 Tech Returners News</p>
+           
+             <a href="#">News</a></li>
+             <a href="#">Opinion</a></li>
+             <a href="#">Sport</a></li>
+             <a href="#">Culture</a></li>
+             <a href="#">Tech</a></li>
+   </footer>
 </body>
 </html>
